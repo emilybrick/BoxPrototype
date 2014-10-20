@@ -12,6 +12,7 @@ i {
 
 a {
 	text-decoration:none;
+    color:#445258;
 }
 
 img {
@@ -28,9 +29,7 @@ li {
 	margin-bottom:10px;
 }
 
-a {
-	color:#08a3e9;
-}
+
 .container { width: 918px; }
 
 .column, .span-1, .span-2, .span-3,
@@ -97,7 +96,6 @@ a {
 
 .show-text {
 	margin-left:130px;
-	font-size:12px;
 }
 /*  If JavaScript is enabled, show the collapse and expand link or button */
 .js .collapse-toggle {
@@ -106,7 +104,7 @@ a {
     cursor: pointer;
 }
 
-/*  When expanded, hide "show" text. 
+/*  When expanded, hide "show" text.
  *  When collapsed, hide "hide" text. */
 .active .collapse-text-show,
 .collapse-text-hide {
@@ -133,8 +131,8 @@ a {
             transition: opacity 0.35s ease;
 }
 
-/*  When collapsed element has the .active class, show it 
- *  Uses max-height instead of display: none to allow for 
+/*  When collapsed element has the .active class, show it
+ *  Uses max-height instead of display: none to allow for
  *  CSS3 animations, which don't work on display values. */
 .js .collapse.active {
     max-height: 9999em;
